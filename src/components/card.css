@@ -1,0 +1,295 @@
+.card {
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    width: 16vw;
+    border-radius: 15px;
+    margin-left: 42vw;
+    height: 63vh;
+    margin-top: 17.5vh;
+    padding: 1.5vw;
+    box-shadow: 0 35px 50px rgba(0, 0, 0, 0.6);
+}
+
+.cardHead {
+    position: relative;
+}
+
+.equi {
+    width: 100%;
+    height: 35vh;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 35vh;
+    cursor: pointer;
+}
+
+.overlayB {
+    position: absolute;
+    top: 0;
+    background-color: hsl(178, 100%, 50%);
+    width: 100%;
+    height: 35vh;
+    border-radius: 15px;
+    filter: opacity(0.5);
+    z-index: 2;
+}
+
+.viewI {
+    width: 15%;
+    top: 43%;
+    left: 43%;
+    position: absolute;
+    z-index: 3;
+}
+
+.card:active .overlay {
+    display: block;
+}
+
+.card span,
+h2 {
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.card:active span,
+.card:active h2 {
+    color: hsl(178, 100%, 50%);
+}
+
+h2 {
+    font-size: 1.1vw;
+}
+
+.cardBody {
+    height: 18vh;
+}
+
+.cardBody p {
+    font-size: 0.9vw;
+    font-weight: lighter;
+}
+
+.cardD {
+    margin-top: 4vh;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.05vw;
+    height: 0.5vh;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.cardD img {
+    align-self: center;
+    width: 15%;
+    height: 2vh;
+}
+
+.cardD div {
+    display: flex;
+    gap: 0.5vw;
+}
+
+.cardD div p {
+    font-size: 0.8vw;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%)
+}
+
+.cardFooter {
+    height: 12vh;
+    gap: 1vw;
+}
+
+.cardFooter img {
+    border: 1px solid white;
+    width: 8%;
+    align-self: center;
+    height: 3vh;
+    border-radius: 50%;
+}
+
+.cardFooter hr {
+    height: 0.2vh;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+}
+
+.cardFooter div {
+    align-content: center;
+    display: flex;
+    font-size: 0.8vw;
+    gap: 0.8vw;
+}
+@media (min-width:768px) and (max-width: 1023px) {
+    .card {
+        width: 40%;
+        margin-left: 28%;
+        height: 80vh;
+        margin-top: 7%;
+        padding: 3%;
+        box-shadow: none;
+    }
+
+    .equi {
+        height: 45vh;
+    }
+
+    .overlay {
+        height: 45vh;
+    }
+
+    .overlayB {
+
+        height: 45vh;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .cardBody {
+        height: 20vh;        
+        margin-bottom: 4vh;
+    }
+
+    .cardBody p {
+        font-size: 1em;
+    }
+
+    .cardD {
+        margin-top: 3vh;
+
+        font-size: 0.5em;
+        height: 2.5vh;
+    }
+
+    .cardD img {
+        align-self: center;
+        width: 15%;
+        height: 3vh;
+    }
+
+    .cardD div {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .cardD div p {
+        font-size: 1.8em;
+    }
+
+    .eth {
+        color: hsl(178, 100%, 50%)
+    }
+
+    .cardFooter {
+        height: 12vh;
+        gap: 2vw;
+    }
+
+    .cardFooter img {
+        width: 10%;
+        height: 5vh;
+    }
+
+    .cardFooter hr {
+        height: 0.3vh;
+    }
+
+    .cardFooter div {
+        font-size: 0.9em;
+        gap: 2vw;
+    }
+}
+@media (min-width:320px) and (max-width: 767px) {
+    .card {
+        width: 78%;
+        margin-left: 4%;
+        height: 85vh;
+        margin-top: 5%;
+        padding: 6%;
+        box-shadow: none;
+    }
+
+    .equi {
+        height: 50vh;
+    }
+
+    .overlay {
+        height: 50vh;
+    }
+
+    .overlayB {
+
+        height: 50vh;
+    }
+
+    h2 {
+        font-size: 1.3em;
+    }
+
+    .cardBody {
+        height: 20vh;        
+        margin-bottom: 4vh;
+    }
+
+    .cardBody p {
+        font-size: 1em;
+    }
+
+    .cardD {
+        margin-top: 3vh;
+
+        font-size: 0.5em;
+        height: 2.5vh;
+    }
+
+    .cardD img {
+        align-self: center;
+        width: 15%;
+        height: 3vh;
+    }
+
+    .cardD div {
+        display: flex;
+        gap: 2vw;
+    }
+
+    .cardD div p {
+        font-size: 1.8em;
+    }
+
+    .eth {
+        color: hsl(178, 100%, 50%)
+    }
+
+    .cardFooter {
+        height: 12vh;
+        gap: 2vw;
+    }
+
+    .cardFooter img {
+        width: 10%;
+        height: 5vh;
+    }
+
+    .cardFooter hr {
+        height: 0.3vh;
+    }
+
+    .cardFooter div {
+        font-size: 0.9em;
+        gap: 3.8vw;
+    }
+}
