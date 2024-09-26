@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3524a50.css",
-    "main.js": "/static/js/main.1084e05a.js",
-    "index.html": "/index.html",
-    "main.b3524a50.css.map": "/static/css/main.b3524a50.css.map",
-    "main.1084e05a.js.map": "/static/js/main.1084e05a.js.map"
+    "main.css": "//gueshjose.github.io/Nft_Jose/static/css/main.b3524a50.css",
+    "main.js": "//gueshjose.github.io/Nft_Jose/static/js/main.1084e05a.js",
+    "index.html": "//gueshjose.github.io/Nft_Jose/index.html",
+    "main.b3524a50.css.map": "//gueshjose.github.io/Nft_Jose/static/css/main.b3524a50.css.map",
+    "main.1084e05a.js.map": "//gueshjose.github.io/Nft_Jose/static/js/main.1084e05a.js.map"
   },
   "entrypoints": [
     "static/css/main.b3524a50.css",
